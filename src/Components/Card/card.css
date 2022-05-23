@@ -1,0 +1,98 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.topBanner {
+    flex: 0.9;
+    border-radius: 20px 20px 0 0 ;
+}
+.bannerImage {
+    object-fit: contain;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.profilePictureContainer {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   border: 3px solid white ;
+   position: absolute;
+   top: 75px;
+   left: 100px;
+}
+.profilePicture {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   object-fit: cover;
+}
+
+h3{
+    margin-top: 20px;    
+}
+
+.profileCity {
+    margin-top: 10px;
+}
+
+.profileInfo {
+    flex: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.profileName {
+    font-size: 18px;
+}
+
+span {
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.profileStatsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #eee;
+  
+}
+
+
+.profileStats {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileStatLabel {
+   margin-top: 5px;
+}
+
+.--small-text {
+    font-size: 14px;
+}
+
+.--smaller-text {
+    font-size: 11px;
+}
+
+.--larger-bold-text { 
+    font-size: 18px;
+    font-weight: 700;
+}
